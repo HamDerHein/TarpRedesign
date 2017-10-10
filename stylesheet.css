@@ -1,6 +1,5 @@
 /*---------------- FLEXBOX START ----------------*/
 
-
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -15,9 +14,7 @@
 
 /*---------------- FLEXBOX END -----------------*/
 
-
 /*---------------- TEXT START ------------------*/
-
 
 h2 {
     font-family:
@@ -31,5 +28,11 @@ p {
     font-family: 'PT Serif', serif;
 }
 
+@font-face {
+    font-family: "bombingregular";
+    src: url('bombing-webfont.woff2') format('woff2'), url('bombing-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-/*---------------- TEXT END ------------------*/
+
+    /*---------------- TEXT END ------------------*/
