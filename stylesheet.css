@@ -19,15 +19,6 @@
 /*---------------- FLEXBOX END -----------------*/
 
 
-/*---------------- LOGO END -----------------*/
-
-#forside h2 {
-text-align: center;
-}
-
-/*---------------- LOGO END -----------------*/
-
-
 /*---------------- ICON START ------------------*/
 
 
@@ -56,6 +47,8 @@ h2 {
     font-family: 'Bolts-SF';
     font-size: 100px;
     color: #bf1320;
+    text-align: center;
+}
 }
 
 h3 {
