@@ -18,6 +18,7 @@
 
 /*---------------- FLEXBOX END -----------------*/
 
+<<<<<<< HEAD
 /*---------------- LOGO END -----------------*/
 
 #forside h2 {
@@ -25,6 +26,8 @@
 }
 
 /*---------------- LOGO END -----------------*/
+=======
+>>>>>>> origin/master
 
 /*---------------- ICON START ------------------*/
 
@@ -53,6 +56,8 @@ h2 {
     font-family: 'Bolts-SF';
     font-size: 100px;
     color: #bf1320;
+    text-align: center;
+}
 }
 
 h3 {
