@@ -16,16 +16,16 @@
 
 /*---------------- TEXT START ------------------*/
 
-
 @font-face {
-    font-family: "bombingregular";
-    src: url('bombing-webfont.woff2') format('woff2'), url('bombing-webfont.woff') format('woff');
+    font-family: "Bolts-SF";
+    src: url('Bolts-SF.woff2') format('woff2'), url('Bolts-SF.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 h2 {
-    font-family:
+    font-family: 'Bolts-SF';
+    font-size: 100px;
 }
 
 h3 {
@@ -37,4 +37,4 @@ p {
 }
 
 
-    /*---------------- TEXT END ------------------*/
+/*---------------- TEXT END ------------------*/
