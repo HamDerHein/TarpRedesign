@@ -1,5 +1,6 @@
 /*---------------- FLEXBOX START ----------------*/
 
+
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -11,4 +12,24 @@
     flex-grow: 1;
 }
 
+
 /*---------------- FLEXBOX END -----------------*/
+
+
+/*---------------- TEXT START ------------------*/
+
+
+h2 {
+    font-family:
+}
+
+h3 {
+    font-family:
+}
+
+p {
+    font-family:
+}
+
+
+/*---------------- TEXT END ------------------*/
