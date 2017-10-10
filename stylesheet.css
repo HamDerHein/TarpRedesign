@@ -17,6 +17,7 @@
 /*---------------- TEXT START ------------------*/
 
 @font-face {
+
     font-family: "Bolts-SF";
     src: url('Bolts-SF.woff2') format('woff2'), url('Bolts-SF.woff') format('woff');
     font-weight: normal;
