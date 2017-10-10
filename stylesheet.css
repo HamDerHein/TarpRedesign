@@ -1,0 +1,14 @@
+/*---------------- FLEXBOX START ----------------*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.column {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+/*---------------- FLEXBOX END -----------------*/
