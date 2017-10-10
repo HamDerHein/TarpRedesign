@@ -27,14 +27,17 @@
 h2 {
     font-family: 'Bolts-SF';
     font-size: 100px;
+    color: #bf1320;
 }
 
 h3 {
     font-family: 'Anton', sans-serif;
+    color: #bf9a67;
 }
 
 p {
     font-family: 'PT Serif', serif;
+    color: #000000;
 }
 
 
