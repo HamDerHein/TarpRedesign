@@ -18,8 +18,8 @@
 
 
 @font-face {
-    font-family: "bombingregular";
-    src: url('bombing-webfont.woff2') format('woff2'), url('bombing-webfont.woff') format('woff');
+    font-family: "boltssf";
+    src: url('boltssf-webfont.woff2') format('woff2'), url('boltssf-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
