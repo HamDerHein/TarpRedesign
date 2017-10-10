@@ -16,6 +16,14 @@
 
 /*---------------- TEXT START ------------------*/
 
+
+@font-face {
+    font-family: "bombingregular";
+    src: url('bombing-webfont.woff2') format('woff2'), url('bombing-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h2 {
     font-family:
 }
@@ -27,12 +35,6 @@ h3 {
 p {
     font-family: 'PT Serif', serif;
 }
-
-@font-face {
-    font-family: "bombingregular";
-    src: url('bombing-webfont.woff2') format('woff2'), url('bombing-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
 
     /*---------------- TEXT END ------------------*/
