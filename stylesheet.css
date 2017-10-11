@@ -1,46 +1,46 @@
 * {
-    background-color: #d7d6d7;
+background-color: #d7d6d7;
 }
 
 /* ----------------- NAVIGATION START ---------------- */
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
 }
 
-ul.topnav li {
-    float: left;
+ul li {
+float: left;
 }
 
-ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+ul li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {
-    background-color: #111;
+ul li a:hover:not(.active) {
+background-color: #111;
 }
 
-ul.topnav li a.active {
-    background-color: #4CAF50;
+ul li a.active {
+background-color: #4CAF50;
 }
 
-ul.topnav li.right {
-    float: right;
+ul li.right {
+float: right;
 }
 
 @media screen and (max-width: 600px) {
-    ul.topnav li.right,
-    ul.topnav li {
-        float: none;
-    }
+ul li.right,
+ul li {
+    float: none;
+}
 }
 
 /* ----------------- NAVIGATION END ---------------- */
@@ -48,14 +48,14 @@ ul.topnav li.right {
 /*---------------- FLEXBOX START ----------------*/
 
 .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
+display: flex;
+flex-wrap: wrap;
+height: 100%;
 }
 
 .column {
-    flex-basis: 300px;
-    flex-grow: 1;
+flex-basis: 300px;
+flex-grow: 1;
 }
 
 /*---------------- FLEXBOX END -----------------*/
@@ -63,10 +63,10 @@ ul.topnav li.right {
 /*---------------- ICON START ------------------*/
 
 .icon {
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    width: 7%;
+position: fixed;
+top: 0px;
+right: 0px;
+width: 7%;
 
 }
 
@@ -76,29 +76,29 @@ ul.topnav li.right {
 
 @font-face {
 
-    font-family: "Bolts-SF";
-    src: url('Bolts-SF.woff2') format('woff2'), url('Bolts-SF.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+font-family: "Bolts-SF";
+src: url('Bolts-SF.woff2') format('woff2'), url('Bolts-SF.woff') format('woff');
+font-weight: normal;
+font-style: normal;
 }
 
 h2 {
-    font-family: 'Bolts-SF';
-    font-size: 100px;
-    color: #bf1320;
-    text-align: center;
+font-family: 'Bolts-SF';
+font-size: 100px;
+color: #bf1320;
+text-align: center;
 }
 
 }
 
 h3 {
-    font-family: 'Anton', sans-serif;
-    color: #bf9a67;
+font-family: 'Anton', sans-serif;
+color: #bf9a67;
 }
 
 p {
-    font-family: 'PT Serif', serif;
-    color: #000000;
+font-family: 'PT Serif', serif;
+color: #000000;
 }
 
 /*---------------- TEXT END ------------------*/
@@ -106,7 +106,7 @@ p {
 /*---------------- FORSIDE START ------------------*/
 
 #forside .column {
-    padding: 2%;
+padding: 2%;
 }
 
 /*---------------- FORSIDE END ------------------*/
@@ -115,8 +115,8 @@ p {
 
 #boghandel p,
 #kontorforsyning p {
-    padding-right: 10%;
-    padding-left: 10%;
+padding-right: 10%;
+padding-left: 10%;
 
 }
 
@@ -124,12 +124,12 @@ p {
 h3,
 #kontorforsyning_kontakt p,
 h3 {
-    padding-left: 50px;
+padding-left: 50px;
 }
 
 iframe {
-    padding-right: 10%;
-    padding-left: 10%;
+padding-right: 10%;
+padding-left: 10%;
 }
 
 /*----------------- PADDING END -----------------*/
@@ -140,7 +140,7 @@ iframe {
 #boghandel .column,
 #boghandel_kontakt .column,
 #kontorforsyning_kontakt .column {
-    margin-bottom: 60px;
+margin-bottom: 60px;
 }
 
 /*--------------- MARGIN END ------------------*/
@@ -148,48 +148,62 @@ iframe {
 /*---------------- BURGER START ------------------*/
 
 #kontorforsyning .burger {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
+width: 35px;
+height: 5px;
+background-color: black;
+margin: 6px 0;
 }
 
 /*---------------- BURGER END ------------------*/
 
 /*---------------- MOBILE START ------------------*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {}
 
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+}
 
+.dropdown-menu {
+    background: #fff;
+    padding: 20px;
+    border-bottom: 2px #603d7b;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0.2);
+}
 
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
 
-    }
-    header nav ul {
-        overflow: hidden;
-        background: #050505; //height: 0;
-    }
+}
 
-    header nav ul.open {
-        height: auto;
-    }
-    header nav ul li {
-        float: none;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-    }
-    header nav ul li a {
-        color: fuchsia;
-        padding: 10px;
-        border-bottom: 1px solid #404040;
-        display: block;
-        margin: 0;
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: 000;
+}
 
+.dropdown-menu label {
+    display: block;
+    cursor: pointer;
+    background: url(img/burger-round.png) no-repeat left center;
+    padding: 30px 0 30px 80px;
+}
 
+input#menu {
+    display: none;
+}
 
+/*Toogle Effect */
+input:checked ~ label {
+    background: url(img/plus-round.png) no-repeat left center;
+}
 
-    /*---------------- MOBILE END ------------------*/
-    /*---------------- BILLEDER END ------------------*/
+input:checked ~ .menu-content {
+    max-height: 100%;
 
+}
 
-    /*---------------- BILLEDER END ------------------*/
+/*---------------- MOBILE END ------------------*/
