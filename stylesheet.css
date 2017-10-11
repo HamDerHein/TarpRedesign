@@ -45,7 +45,6 @@ ul.topnav li.right {
 
 /* ----------------- NAVIGATION END ---------------- */
 
-
 /*---------------- FLEXBOX START ----------------*/
 
 .sectionwrapper {
@@ -61,7 +60,6 @@ ul.topnav li.right {
 
 /*---------------- FLEXBOX END -----------------*/
 
-
 /*---------------- ICON START ------------------*/
 
 .icon {
@@ -73,7 +71,6 @@ ul.topnav li.right {
 }
 
 /*---------------- ICON END ------------------*/
-
 
 /*---------------- TEXT START ------------------*/
 
@@ -106,7 +103,6 @@ p {
 
 /*---------------- TEXT END ------------------*/
 
-
 /*---------------- FORSIDE START ------------------*/
 
 #forside .column {
@@ -115,16 +111,19 @@ p {
 
 /*---------------- FORSIDE END ------------------*/
 
-
 /*----------------- PADDING START -----------------*/
 
-#boghandel p, #kontorforsyning p{
+#boghandel p,
+#kontorforsyning p {
     padding-right: 10%;
     padding-left: 10%;
 
 }
 
-#boghandel_kontakt p,h3, #kontorforsyning_kontakt p,h3{
+#boghandel_kontakt p,
+h3,
+#kontorforsyning_kontakt p,
+h3 {
     padding-left: 50px;
 }
 
@@ -135,11 +134,13 @@ iframe {
 
 /*----------------- PADDING END -----------------*/
 
-
 /*--------------- MARGIN START ------------------*/
 
-#kontorforsyning .column, #boghandel .column, #boghandel_kontakt .column, #kontorforsyning_kontakt .column{
-margin-bottom: 60px;
+#kontorforsyning .column,
+#boghandel .column,
+#boghandel_kontakt .column,
+#kontorforsyning_kontakt .column {
+    margin-bottom: 60px;
 }
 
 /*--------------- MARGIN END ------------------*/
@@ -174,20 +175,19 @@ margin-bottom: 60px;
     }
     header nav ul {
         overflow: hidden;
-        background: #050505;
-        //height: 0;
+        background: #050505; //height: 0;
     }
 
     header nav ul.open {
         height: auto;
     }
-    header nav ul li{
+    header nav ul li {
         float: none;
         text-align: left;
         width: 100%;
         margin: 0;
     }
-    header nav ul li a{
+    header nav ul li a {
         color: fuchsia;
         padding: 10px;
         border-bottom: 1px solid #404040;
@@ -196,14 +196,14 @@ margin-bottom: 60px;
 
     }
 
-/*---------------- MOBILE END ------------------*/
-
-
-/*---------------- BILLEDER END ------------------*/
-
-    #forside, #kontorforsyning, #boghandel, #boghandel_kontakt, #kontorforsyning_kontakt{
-        align-items:center;
+    /*---------------- MOBILE END ------------------*/
+    /*---------------- BILLEDER END ------------------*/
+    #forside,
+    #kontorforsyning,
+    #boghandel,
+    #boghandel_kontakt,
+    #kontorforsyning_kontakt {
+        align-items: center;
     }
 
-/*---------------- BILLEDER END ------------------*/
-
+    /*---------------- BILLEDER END ------------------*/
