@@ -125,6 +125,25 @@ p {
 
 /*---------------- BILLEDER END ------------------*/
 
+/*----------------- PADDING START -----------------*/
+
+#boghandel p, #kontorforsyning p{
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+#boghandel_kontakt p,h3, #kontorforsyning_kontakt p,h3{
+    padding-left: 50px;
+}
+
+iframe {
+    padding-left: 10%;
+}
+/*----------------- PADDING END -----------------*/
+
+
+
 #kontorforsyning .burger {
     width: 35px;
     height: 5px;
