@@ -162,9 +162,7 @@ iframe {
 
 
 
-<<<<<<< HEAD
 
-=======
     }
     header nav ul {
         overflow: hidden;
@@ -186,18 +184,12 @@ iframe {
         border-bottom: 1px solid #404040;
         display: block;
         margin: 0;
->>>>>>> origin/master
+
 
 
 
     /*---------------- MOBILE END ------------------*/
     /*---------------- BILLEDER END ------------------*/
-    #forside,
-    #kontorforsyning,
-    #boghandel,
-    #boghandel_kontakt,
-    #kontorforsyning_kontakt {
-        align-items: center;
-    }
+
 
     /*---------------- BILLEDER END ------------------*/
