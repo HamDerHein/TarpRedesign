@@ -2,7 +2,6 @@
     background-color: #d7d6d7;
 }
 
-
 /* ----------------- NAVIGATION START ---------------- */
 
 ul.topnav {
@@ -47,9 +46,7 @@ ul.topnav li.right {
 /* ----------------- NAVIGATION END ---------------- */
 
 
-
 /*-------------- BURGER NAV START --------------*/
-
 
 
 /*-------------- BURGER NAV END --------------*/
@@ -68,8 +65,8 @@ ul.topnav li.right {
     flex-grow: 1;
 }
 
-
 /*---------------- FLEXBOX END -----------------*/
+
 
 /*---------------- ICON START ------------------*/
 
@@ -81,8 +78,8 @@ ul.topnav li.right {
 
 }
 
-
 /*---------------- ICON END ------------------*/
+
 
 /*---------------- TEXT START ------------------*/
 
@@ -113,8 +110,8 @@ p {
     color: #000000;
 }
 
-
 /*---------------- TEXT END ------------------*/
+
 
 /*---------------- BILLEDER START ------------------*/
 
@@ -122,8 +119,8 @@ p {
     padding: 2%;
 }
 
-
 /*---------------- BILLEDER END ------------------*/
+
 
 /*----------------- PADDING START -----------------*/
 
@@ -140,9 +137,17 @@ p {
 iframe {
     padding-left: 10%;
 }
+
 /*----------------- PADDING END -----------------*/
 
 
+/*--------------- MARGIN START ------------------*/
+
+#kontorforsyning .column, #boghandel .column, #boghandel_kontakt .column, #kontorforsyning_kontakt .column{
+margin-bottom: 60px;
+}
+
+/*--------------- MARGIN END ------------------*/
 
 #kontorforsyning .burger {
     width: 35px;
