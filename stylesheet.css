@@ -46,14 +46,9 @@ ul.topnav li.right {
 
 /* ----------------- NAVIGATION END ---------------- */
 
-
-
 /*-------------- BURGER NAV START --------------*/
 
-
-
 /*-------------- BURGER NAV END --------------*/
-
 
 /*---------------- FLEXBOX START ----------------*/
 
@@ -131,3 +126,49 @@ p {
     background-color: black;
     margin: 6px 0;
 }
+
+/*---------------- BILLEDER END ------------------*/
+
+/*---------------- MOBILE START ------------------*/
+
+@media screen and (max-width: 480px) {
+
+    .burger-nav {
+        display: block;
+        height: 40px;
+        width: 100px;
+        background: url(img/burger.png) no-repeat 98% center;
+        cursor: pointer;
+    }
+
+    header .topnav {
+        width: 100%;
+        padding: 0;
+
+    }
+    header nav ul {
+        overflow: hidden;
+        background: #050505;
+        //height: 0;
+    }
+
+    header nav ul.open {
+        height: auto;
+    }
+    header nav ul li{
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+    header nav ul li a{
+        color: fuchsia;
+        padding: 10px;
+        border-bottom: 1px solid #404040;
+        display: block;
+        margin: 0;
+
+    }
+
+
+    /*---------------- MOBILE END ------------------*/
