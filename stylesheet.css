@@ -18,7 +18,6 @@
 
 /*---------------- FLEXBOX END -----------------*/
 
-
 /*---------------- ICON START ------------------*/
 
 .icon {
@@ -48,6 +47,7 @@ h2 {
     color: #bf1320;
     text-align: center;
 }
+
 }
 
 h3 {
@@ -71,3 +71,10 @@ p {
 
 
 /*---------------- BILLEDER END ------------------*/
+
+#kontorforsyning .burger {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
