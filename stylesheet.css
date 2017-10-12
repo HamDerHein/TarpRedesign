@@ -117,7 +117,7 @@ h2 {
 
 h3 {
     font-family: 'Anton', sans-serif;
-    color: white;
+    color: #bf1320;
     margin-left: 15px;
     letter-spacing: 3px;
     font-size: 4em;
@@ -125,13 +125,19 @@ h3 {
     margin-left: 120px;
 }
 
+h4 {
+    font-family: 'Anton', sans-serif;
+    color: #bf1320;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
 p {
-    <<<<<<< HEAD font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
     color: #000000;
     padding: 10% 10%;
-    =======font-family: 'PT Serif', serif;
+    font-family: 'PT Serif', serif;
     color: #000000;
-    > > > > > > > origin/master
 }
 
 /*---------------- TEXT END ------------------*/
@@ -141,7 +147,7 @@ p {
 #splash {
     width: 100vw;
     height: 50vw;
-    background-image: url(img/Tarp_splash_2.jpg);
+    background-image: url(img/Tarp_splash_uden%20tekst.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -151,7 +157,7 @@ p {
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
     #splash {
-        background-image: url(img/Tarp_mobil.jpg);
+        background-image: url(img/Tarp_mobil_uden%20tekst.jpg);
         height: 167vw;
     }
 }
@@ -165,7 +171,7 @@ p {
 #forside .column img {
     border-style: solid;
     border-radius: 100px;
-    border-color: white;
+    border-color: black;
     margin-left: 100px;
 }
 
