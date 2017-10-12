@@ -1,15 +1,16 @@
-body{
+body {
     background-color: #d7d6d7;
+    margin: 0;
 }
 
 /* ----------------- NAVIGATION START ---------------- */
 
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-/*
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*
 position: fixed;
 top: 0px;
 left: 0px;
@@ -18,34 +19,34 @@ width: 60%;
 }
 
 ul li {
-float: left;
+    float: left;
 }
 
 ul li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 ul li a:hover:not(.active) {
-background-color: #bf1320;
+    background-color: #bf1320;
 }
 
 ul li a.active {
-background-color: #4CAF50;
+    background-color: #4CAF50;
 }
 
 ul li.right {
-float: right;
+    float: right;
 }
 
 @media screen and (max-width: 600px) {
-ul li.right,
-ul li {
-    float: none;
-}
+    ul li.right,
+    ul li {
+        float: none;
+    }
 }
 
 
@@ -54,14 +55,14 @@ ul li {
 /*---------------- FLEXBOX START ----------------*/
 
 .sectionwrapper {
-display: flex;
-flex-wrap: wrap;
-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
 .column {
-flex-basis: 300px;
-flex-grow: 1;
+    flex-basis: 300px;
+    flex-grow: 1;
 }
 
 .splash {
@@ -74,10 +75,10 @@ flex-grow: 1;
 /*---------------- ICON START ------------------*/
 
 .icon {
-position: fixed;
-top: 0px;
-right: 0px;
-width: 7%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 7%;
 
 }
 
@@ -87,29 +88,33 @@ width: 7%;
 
 @font-face {
 
-font-family: "Bolts-SF";
-src: url('Bolts-SF.woff2') format('woff2'), url('Bolts-SF.woff') format('woff');
-font-weight: normal;
-font-style: normal;
+    font-family: "Bolts-SF";
+    src: url('Bolts-SF.woff2') format('woff2'), url('Bolts-SF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h2 {
-font-family: 'Bolts-SF';
-font-size: 100px;
-color: #bf1320;
-text-align: center;
-}
-
+    font-family: 'Bolts-SF';
+    font-size: 100px;
+    color: #bf1320;
+    text-align: center;
+    margin-top: 0;
 }
 
 h3 {
-font-family: 'Anton', sans-serif;
-color: #bf9a67;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    font-size: 4em;
+    margin: 0;
+    margin-left: 100px;
 }
 
 p {
-font-family: 'PT Serif', serif;
-color: #000000;
+    font-family: 'PT Serif', serif;
+    color: #000000;
 }
 
 /*---------------- TEXT END ------------------*/
@@ -121,26 +126,30 @@ color: #000000;
     height: 50vw;
     background-image: url(img/Tarp_splash_2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
 /*@media screen and (max-width: 480px)*/
 
-/*
 @media screen and (max-width: 480px) and (orientation: portrait) {
     #splash {
-        background-image:url(img/Tarp_mobil.jpg);
+        background-image: url(img/Tarp_mobil.jpg);
         height: 167vw;
     }
-*/
-
+}
 
 /*---------------- FORSIDE START ------------------*/
 
 #forside .column {
-padding: 2%;
+    padding: 2%;
 }
+
 #forside .column img {
     border-style: solid;
-    border-color: black;
+    border-radius: 100px;
+    border-color: white;
+    margin-left: 100px;
 }
 
 
@@ -150,8 +159,8 @@ padding: 2%;
 
 #boghandel p,
 #kontorforsyning p {
-padding-right: 10%;
-padding-left: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
 
 }
 
@@ -159,12 +168,12 @@ padding-left: 10%;
 h3,
 #kontorforsyning_kontakt p,
 h3 {
-padding-left: 50px;
+    padding-left: 30px;
 }
 
 iframe {
-padding-right: 10%;
-padding-left: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 /*----------------- PADDING END -----------------*/
@@ -175,7 +184,7 @@ padding-left: 10%;
 #boghandel .column,
 #boghandel_kontakt .column,
 #kontorforsyning_kontakt .column {
-margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 /*--------------- MARGIN END ------------------*/
@@ -183,10 +192,10 @@ margin-bottom: 60px;
 /*---------------- BURGER START ------------------*/
 
 #kontorforsyning .burger {
-width: 35px;
-height: 5px;
-background-color: black;
-margin: 6px 0;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }
 
 /*---------------- BURGER END ------------------*/
@@ -196,78 +205,86 @@ margin: 6px 0;
 input#menu {
     display: none;
 }
+
 @media screen and (max-width: 480px) {
 
-    ul li a{
+    ul li a {
         text-align: left;
     }
 
 
-.menu-content {
-    max-height: 0;
-    overflow: hidden;
-}
+    .menu-content {
+        max-height: 0;
+        overflow: hidden;
+    }
 
-.dropdown-menu {
+    .dropdown-menu {
 
-    padding: 20px;
-    border-bottom: 2px #603d7b;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0.2);
-/*
+        padding: 20px;
+        border-bottom: 2px #603d7b;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0.2);
+        /*
     position: fixed;
     top: 0px;
     left: 0px;
     width: 7%;
 */
+    }
+
+    .dropdown-menu ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    .dropdown-menu a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: 000;
+    }
+
+    .dropdown-menu label {
+        display: block;
+        cursor: pointer;
+        background: url(img/burger-round.png) no-repeat left center;
+        padding: 30px 0 30px 80px;
+    }
+
+
+
+    /*Toogle Effect */
+    input:checked ~ label {
+        background: url(img/plus-round.png) no-repeat left center;
+    }
+
+    input:checked ~ .menu-content {
+        max-height: 100%;
+
+    }
 }
 
-.dropdown-menu ul {
-    list-style-type: none;
-    padding: 0;
-
-}
-
-.dropdown-menu a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: 000;
-}
-
-.dropdown-menu label {
-    display: block;
-    cursor: pointer;
-    background: url(img/burger-round.png) no-repeat left center;
-    padding: 30px 0 30px 80px;
-}
-
-
-
-/*Toogle Effect */
-input:checked ~ label {
-    background: url(img/plus-round.png) no-repeat left center;
-}
-
-input:checked ~ .menu-content {
-    max-height: 100%;
-
-}
-}
 /*---------------- MOBILE END ------------------*/
+
 /*---------------- VIDEO START ------------------*/
+
 .video {
     border-image-slice: 0 12 0 12;
     border-image-width: 20px 12px 0px 12px;
-    border-image-outset: 0px 0px 0px 0px; border-image-repeat: repeat repeat; border-image-source: url("https://cdn.pixabay.com/photo/2016/06/09/20/25/frame-1446516_1280.png");
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: repeat repeat;
+    border-image-source: url("https://cdn.pixabay.com/photo/2016/06/09/20/25/frame-1446516_1280.png");
 }
+
 /*---------------- VIDEO END ------------------*/
 
 /*---------------- BACKGROUND START ------------------*/
-<<<<<<< HEAD
-#boghandel, #kontorforsyning, #boghandel_kontakt, #kontorforsyning_kontakt  .sectionwrapper {
-=======
 
-/*
+<<<<<<< HEAD #boghandel,
+#kontorforsyning,
+#boghandel_kontakt,
+#kontorforsyning_kontakt .sectionwrapper {
+    =======/*
 .sectionwrapper {
 >>>>>>> origin/master
     background-image: url(img/paper2.jpg);
@@ -275,6 +292,3 @@ input:checked ~ .menu-content {
     background-size: cover;
 }
 */
-
-
-
