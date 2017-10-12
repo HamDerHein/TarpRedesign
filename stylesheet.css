@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 body{
     background-color: #d7d6d7;
+=======
+/*
+* {
+background-color: #d7d6d7;
+>>>>>>> origin/master
 }
+*/
 
 /* ----------------- NAVIGATION START ---------------- */
 
@@ -48,6 +55,7 @@ ul li {
 }
 }
 
+
 /* ----------------- NAVIGATION END ---------------- */
 
 /*---------------- FLEXBOX START ----------------*/
@@ -61,6 +69,11 @@ height: 100%;
 .column {
 flex-basis: 300px;
 flex-grow: 1;
+}
+
+.splash {
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 /*---------------- FLEXBOX END -----------------*/
@@ -108,11 +121,22 @@ color: #000000;
 
 /*---------------- TEXT END ------------------*/
 
+/*---------------- SPLASH START ----------------*/
+
+#splash {
+    width: 100vw;
+    height: 50vw;
+    background-image: url(img/Tarp_splash_2.jpg);
+    background-size: cover;
+}
+
+
 /*---------------- FORSIDE START ------------------*/
 
 #forside .column {
 padding: 2%;
 }
+
 
 /*---------------- FORSIDE END ------------------*/
 
@@ -233,11 +257,18 @@ input:checked ~ .menu-content {
 /*---------------- VIDEO END ------------------*/
 
 /*---------------- BACKGROUND START ------------------*/
+<<<<<<< HEAD
 #boghandel, #kontorforsyning, #boghandel_kontakt, #kontorforsyning_kontakt  .sectionwrapper {
+=======
+
+/*
+.sectionwrapper {
+>>>>>>> origin/master
     background-image: url(img/paper2.jpg);
     padding-top: 7%;
     background-size: cover;
 }
+*/
 
 
 
