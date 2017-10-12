@@ -158,7 +158,13 @@ margin: 6px 0;
 
 /*---------------- MOBILE START ------------------*/
 
-@media screen and (max-width: 480px) {}
+input#menu {
+    display: none;
+}
+@media screen and (max-width: 480px) {
+
+
+
 
 .menu-content {
     max-height: 0;
@@ -192,9 +198,7 @@ margin: 6px 0;
     padding: 30px 0 30px 80px;
 }
 
-input#menu {
-    display: none;
-}
+
 
 /*Toogle Effect */
 input:checked ~ label {
@@ -205,5 +209,5 @@ input:checked ~ .menu-content {
     max-height: 100%;
 
 }
-
+}
 /*---------------- MOBILE END ------------------*/
