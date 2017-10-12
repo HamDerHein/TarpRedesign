@@ -1,8 +1,13 @@
 body {
     background-color: #d7d6d7;
+}
+
+body {
+    background-color: #d7d6d7;
     margin: 0;
 }
 
+> > > > > > > origin/master
 /* ----------------- NAVIGATION START ---------------- */
 
 ul {
@@ -20,6 +25,9 @@ width: 60%;
 
 ul li {
     float: left;
+    list-style-type: none;
+
+
 }
 
 ul li a {
@@ -113,8 +121,12 @@ h3 {
 }
 
 p {
-    font-family: 'PT Serif', serif;
+    <<<<<<< HEAD font-family: 'PT Serif', serif;
     color: #000000;
+    padding: 10% 10%;
+    =======font-family: 'PT Serif', serif;
+    color: #000000;
+    > > > > > > > origin/master
 }
 
 /*---------------- TEXT END ------------------*/
@@ -247,7 +259,7 @@ input#menu {
     .dropdown-menu label {
         display: block;
         cursor: pointer;
-        background: url(img/burger-round.png) no-repeat left center;
+        background: url(img/lukket_bog.png) no-repeat left center;
         padding: 30px 0 30px 80px;
     }
 
@@ -255,7 +267,7 @@ input#menu {
 
     /*Toogle Effect */
     input:checked ~ label {
-        background: url(img/plus-round.png) no-repeat left center;
+        background: url(img/aaben_bog.png) no-repeat left center;
     }
 
     input:checked ~ .menu-content {
@@ -279,16 +291,3 @@ input#menu {
 /*---------------- VIDEO END ------------------*/
 
 /*---------------- BACKGROUND START ------------------*/
-
-<<<<<<< HEAD #boghandel,
-#kontorforsyning,
-#boghandel_kontakt,
-#kontorforsyning_kontakt .sectionwrapper {
-    =======/*
-.sectionwrapper {
->>>>>>> origin/master
-    background-image: url(img/paper2.jpg);
-    padding-top: 7%;
-    background-size: cover;
-}
-*/
