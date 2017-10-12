@@ -113,7 +113,6 @@ h2 {
 h3 {
     font-family: 'Anton', sans-serif;
     color: #bf1320;
-    margin-left: 15px;
     letter-spacing: 3px;
     font-size: 4em;
     margin: 0;
@@ -125,14 +124,17 @@ h4 {
     color: #bf1320;
     letter-spacing: 1px;
     font-size: 20px;
+    margin-left: 10px;
 }
 
 p {
     font-family: 'PT Serif', serif;
-    color: #000000;
-    padding: 10% 10%;
+    color: white;
+    font-size: 18px;
+/*    padding: 10% 10%;*/
     font-family: 'PT Serif', serif;
-    color: #000000;
+/*    color: #000000;*/
+    margin-left: 10px;
 }
 
 /*---------------- TEXT END ------------------*/
@@ -184,16 +186,22 @@ p {
 
 }
 
+/*
 #boghandel_kontakt p,
 h3,
 #kontorforsyning_kontakt p,
 h3 {
     padding-left: 30px;
 }
+*/
 
 iframe {
+    border-style: solid;
+    border-color: black;
+    border-radius: 300px;
     padding-right: 10%;
     padding-left: 10%;
+
 }
 
 /*----------------- PADDING END -----------------*/
@@ -325,6 +333,7 @@ input#menu {
     }
     p {
         font-size: 1.1em;
+        margin-left: 50px;
     }
     h4 {
         margin-left: 50px;
