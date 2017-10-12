@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 body{
     background-color: #d7d6d7;
-=======
-/*
-* {
-background-color: #d7d6d7;
->>>>>>> origin/master
 }
-*/
 
 /* ----------------- NAVIGATION START ---------------- */
 
@@ -129,12 +122,25 @@ color: #000000;
     background-image: url(img/Tarp_splash_2.jpg);
     background-size: cover;
 }
+/*@media screen and (max-width: 480px)*/
+
+/*
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    #splash {
+        background-image:url(img/Tarp_mobil.jpg);
+        height: 167vw;
+    }
+*/
 
 
 /*---------------- FORSIDE START ------------------*/
 
 #forside .column {
 padding: 2%;
+}
+#forside .column img {
+    border-style: solid;
+    border-color: black;
 }
 
 
