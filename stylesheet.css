@@ -9,7 +9,10 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-
+position: fixed;
+top: 0px;
+left: 0px;
+width: 60%;
 }
 
 ul li {
@@ -214,7 +217,18 @@ input:checked ~ .menu-content {
 }
 }
 /*---------------- MOBILE END ------------------*/
-
+/*---------------- VIDEO START ------------------*/
 .video {
-    border-image: url(img/woodframe.png) 30 round;
+    border-image-slice: 0 12 0 12;
+    border-image-width: 20px 12px 0px 12px;
+    border-image-outset: 0px 0px 0px 0px; border-image-repeat: repeat repeat; border-image-source: url("https://cdn.pixabay.com/photo/2016/06/09/20/25/frame-1446516_1280.png");
 }
+/*---------------- VIDEO END ------------------*/
+
+/*---------------- BACKGROUND START ------------------*/
+
+.sectionwrapper {
+    background-image: url(img/paper2.jpg);
+}
+
+
