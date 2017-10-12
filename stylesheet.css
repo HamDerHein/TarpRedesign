@@ -9,7 +9,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #333;
+
 }
 
 ul li {
@@ -175,7 +175,10 @@ input#menu {
     background: #fff;
     padding: 20px;
     border-bottom: 2px #603d7b;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0.2);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0.2);position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 7%;
 }
 
 .dropdown-menu ul {
@@ -211,3 +214,7 @@ input:checked ~ .menu-content {
 }
 }
 /*---------------- MOBILE END ------------------*/
+
+.video {
+    border-image: url(img/woodframe.png) 30 round;
+}
