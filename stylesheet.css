@@ -1,5 +1,5 @@
-* {
-background-color: #d7d6d7;
+body{
+    background-color: #d7d6d7;
 }
 
 /* ----------------- NAVIGATION START ---------------- */
@@ -9,10 +9,12 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
+/*
 position: fixed;
 top: 0px;
 left: 0px;
 width: 60%;
+*/
 }
 
 ul li {
@@ -28,7 +30,7 @@ text-decoration: none;
 }
 
 ul li a:hover:not(.active) {
-background-color: #111;
+background-color: #bf1320;
 }
 
 ul li a.active {
@@ -166,7 +168,9 @@ input#menu {
 }
 @media screen and (max-width: 480px) {
 
-
+    ul li a{
+        text-align: left;
+    }
 
 
 .menu-content {
@@ -175,13 +179,16 @@ input#menu {
 }
 
 .dropdown-menu {
-    background: #fff;
+
     padding: 20px;
     border-bottom: 2px #603d7b;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0.2);position: fixed;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0.2);
+/*
+    position: fixed;
     top: 0px;
-    right: 0px;
+    left: 0px;
     width: 7%;
+*/
 }
 
 .dropdown-menu ul {
@@ -226,9 +233,11 @@ input:checked ~ .menu-content {
 /*---------------- VIDEO END ------------------*/
 
 /*---------------- BACKGROUND START ------------------*/
-
-.sectionwrapper {
+#boghandel, #kontorforsyning, #boghandel_kontakt, #kontorforsyning_kontakt  .sectionwrapper {
     background-image: url(img/paper2.jpg);
+    padding-top: 7%;
+    background-size: cover;
 }
+
 
 
