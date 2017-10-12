@@ -74,7 +74,7 @@ ul li.right {
 }
 
 .column {
-    flex-basis: 300px;
+   flex-basis: 200px;
     flex-grow: 1;
 }
 
@@ -264,7 +264,7 @@ input#menu {
     .dropdown-menu label {
         display: block;
         cursor: pointer;
-        background: url(img/lukket_bog_mikro.png) no-repeat left center;
+        background: url(img/lukketbog_rod.png) no-repeat left center;
         padding: 30px 0 30px 80px;
     }
 
@@ -283,16 +283,17 @@ input#menu {
 
 /*---------------- MOBILE END ------------------*/
 
-/*---------------- VIDEO START ------------------*/
+/*---------------- MOBILE_MEDIA START ------------------*/
+@media screen and (max-width: 480px) {
+    .video {
+        width: 300px;
+    }
 
-.video {
-    border-image-slice: 0 12 0 12;
-    border-image-width: 20px 12px 0px 12px;
-    border-image-outset: 0px 0px 0px 0px;
-    border-image-repeat: repeat repeat;
-    border-image-source: url("https://cdn.pixabay.com/photo/2016/06/09/20/25/frame-1446516_1280.png");
+
+
+
+
 }
-
-/*---------------- VIDEO END ------------------*/
+/*---------------- MOBILE_MEDIA END ------------------*/
 
 /*---------------- BACKGROUND START ------------------*/
