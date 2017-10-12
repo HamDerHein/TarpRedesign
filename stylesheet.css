@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 
-> > > > > > > origin/master
+
 /* ----------------- NAVIGATION START ---------------- */
 
 ul {
@@ -20,12 +20,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*
-position: fixed;
-top: 0px;
-left: 0px;
-width: 60%;
-*/
+
 }
 
 ul li {
@@ -74,7 +69,7 @@ ul li.right {
 }
 
 .column {
-   flex-basis: 200px;
+    flex-basis: 200px;
     flex-grow: 1;
 }
 
@@ -153,12 +148,14 @@ p {
     background-size: 100%;
 }
 
-/*@media screen and (max-width: 480px)*/
+
 
 @media screen and (max-width: 480px) and (orientation: portrait) {
     #splash {
         background-image: url(img/Tarp_mobil_uden%20tekst.jpg);
-        height: 167vw;
+        width: 100vw;
+        height: 250vw;
+        background-repeat: no-repeat;
     }
 }
 
@@ -244,14 +241,13 @@ input#menu {
     .dropdown-menu {
 
         padding: 20px;
-        border-bottom: 2px #603d7b;
-        box-shadow: 1px 2px 3px rgba(0, 0, 0.2);
-        /*
-    position: fixed;
+/*        border-bottom: 2px #603d7b;*/
+
+        position: fixed;
     top: 0px;
     left: 0px;
-    width: 7%;
-*/
+        outline: none;
+
     }
 
     .dropdown-menu ul {
@@ -290,16 +286,54 @@ input#menu {
 /*---------------- MOBILE END ------------------*/
 
 /*---------------- MOBILE_MEDIA START ------------------*/
+
 @media screen and (max-width: 480px) {
     .video {
         width: 300px;
     }
+    #forside .column img {
+        border-style: solid;
+        border-radius: 100px;
+        border-color: black;
+        margin-left: 5px;
 
+    }
+    h3 {
+        font-family: 'Anton', sans-serif;
+        color: #bf1320;
+        margin-left: 15px;
+        letter-spacing: 3px;
+        font-size: 3em;
+        margin: 0;
+        margin-left: 12px;
+    }
 
-
-
-
+    .map{
+        width: 300px;
+    }
+    .column{
+        width: 300px;
+    }
+    .icon {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 15%;
+    }
+    h2 {
+        margin-top: 70px;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    h4 {
+        margin-left: 50px;
+    }
+    #kontorforsyning_kontakt column:{
+        margin-left: 50px;
+    }
 }
+
 /*---------------- MOBILE_MEDIA END ------------------*/
 
 /*---------------- BACKGROUND START ------------------*/
