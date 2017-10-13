@@ -57,7 +57,9 @@ ul li.right {
     }
 }
 
-
+a {
+    text-decoration: none;
+}
 /* ----------------- NAVIGATION END ---------------- */
 
 /*---------------- FLEXBOX START ----------------*/
