@@ -100,6 +100,7 @@ ul li.right {
     src: url('Bolts-SF.woff2') format('woff2'), url('Bolts-SF.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 h2 {
@@ -108,6 +109,7 @@ h2 {
     color: #bf1320;
     text-align: center;
     margin-top: 0;
+    text-decoration: none;
 }
 
 h3 {
@@ -215,6 +217,31 @@ iframe {
 }
 
 /*--------------- MARGIN END ------------------*/
+.video {
+    border-radius: 200px;
+}
+#boghandel p, #kontorforsyning p {
+   border-style: solid;
+    border-color: #a8364c;
+    border-radius: 50px;
+    background-color: #d7d6d7;
+    padding: 5%;
+    font-family: 'PT Serif', serif;
+    color: #a8364c;
+
+
+}
+#kontorforsyning p{
+    padding: 10%;
+}
+
+
+#boghandel .sectionwrapper, #kontorforsyning .sectionwrapper {
+    align-items: center;
+
+}
+
+
 
 /*---------------- BURGER START ------------------*/
 
@@ -345,3 +372,7 @@ input#menu {
 /*---------------- MOBILE_MEDIA END ------------------*/
 
 /*---------------- BACKGROUND START ------------------*/
+/*
+link {
+    text-decoration: none;
+}*/
